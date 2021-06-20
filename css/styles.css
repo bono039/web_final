@@ -37,6 +37,23 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+.bottom-line {
+	border-bottom: 1px solid #b0e036;
+	box-shadow: inset 0 -2px 0 #b0e0e6;
+}
+
+.e {
+	text-decoration: underline;
+}
+.half_bg_o {
+	background:linear-gradient(to top, #e8af87 30%, transparent 50%);
+}
+.half_bg_y {
+	text-decoration: none;
+    display: inline;
+    box-shadow: inset 0 -10px 0 hsla(53, 90%, 83%, 0.93);
+}
+
 *,
 *::before,
 *::after {
